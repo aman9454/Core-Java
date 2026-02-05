@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean id="company" class="com.jspider.springcore.Company">
+    <property name="id" value="1"/>
+    <property name="name" value="Google"/>
+    <property name="website" value="www.google.com"/>
+    <property name="branches">
+        <list>
+            <value>India</value>
+            <value>USA</value>
+            <value>UK</value>
+        </list>
+    </property>
+</bean>
